@@ -25,7 +25,7 @@ public class ArraysExample {
 
         System.out.println(namez.length);
 
-
+//end
 
 
     }
