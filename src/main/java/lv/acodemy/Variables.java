@@ -74,6 +74,22 @@ public class Variables {
         int preIncrement = ++counter;
 
 
+        String name = "John";
+        String lastName = "Doe";
+
+        System.out.println(name);
+        System.out.println(lastName);
+
+        String fullName = name + " " + lastName;
+        System.out.println(fullName);
+
+        System.out.printf("My name is: %s, My surname is: %s\n", name, lastName);
+        System.out.printf("My name is: %s, My surname is: %s%n", name, lastName);
+
+        var myCurrentAge = 41;
+        var text = "Hello World";
+
+
 
 
     }
